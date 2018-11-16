@@ -29,7 +29,7 @@ https://github.com/toshimaru/RailsTwitterClone/pull/191
 Add this line to your application's `Gemfile`:
 
 ```ruby
-gem "rubocop-rails"
+gem "rubocop-rails_config"
 ```
 
 ## Usage
@@ -38,7 +38,7 @@ Add this line to your application's `.rubocop.yml`, or just run `rails generate 
 
 ```yml
 inherit_gem:
-  rubocop-rails:
+  rubocop-rails_config:
     - config/rails.yml
 ```
 
@@ -50,7 +50,7 @@ For example, if you want to change `TargetRubyVersion`, you can do it like:
 
 ```yml
 inherit_gem:
-  rubocop-rails:
+  rubocop-rails_config:
     - config/rails.yml
 
 AllCops:
